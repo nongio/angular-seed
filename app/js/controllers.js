@@ -3,8 +3,9 @@
 /* Controllers */
 
 
-function MyCtrl1() {}
-MyCtrl1.$inject = [];
+function CustomController($scope) {
+	$scope.number = 1150;
+}
 
 
 function MyCtrl2() {
